@@ -29,26 +29,22 @@ A short overview of the project
 ![GIF](./cars.gif)
 
 ## Installation
-### manually
 ```sh
 git clone https://github.com/mJiyan/typescript-list-filter-cars
-cd typescript-list-filter-cars/server
+cd typescript-list-filter-cars/apiserver
 yarn
 yarn start
 
 cd typescript-list-filter-cars/client
 yarn
 yarn start
-Open your browser at http://0.0.0.0:8080 
+Open your browser at http://localhost:9000/ 
 ```
 
 
 ## Test
 ```sh
 git clone https://github.com/mJiyan/typescript-list-filter-cars
-cd typescript-list-filter-cars/server
-yarn
-yarn test
 
 cd typescript-list-filter-cars/client
 yarn
