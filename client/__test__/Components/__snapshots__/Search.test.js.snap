@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering search components it should match with the snapshot 1`] = `
+<div
+  className="flex items-center 
+      xl:w-2/6 lg:w-2/6 md:w-2/6 sm:w-full xs:w-full 
+      xl:h-full lg:h-full md:h-full sm:h-12 xs:h-12"
+>
+  <svg
+    className="h-5 w-5 absolute ml-6"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clipRule="evenodd"
+      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+      fillRule="evenodd"
+    />
+  </svg>
+  <input
+    className="border-none rounded-md text-sm bg-WhiteDark dark:bg-DarkBlue shadow w-full h-full px-16 placeholder-VeryDarkBlueLight dark:placeholder-WhiteDark"
+    data-testid="search-input"
+    onChange={[Function]}
+    placeholder="Search for a vehicle fuelType..."
+  />
+</div>
+`;

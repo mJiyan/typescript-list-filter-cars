@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering modelist components it should match with the snapshot 1`] = `
+<div
+  className="xl:w-1/6 lg:w-1/6 md:w-1/6 sm:w-2/3 xs:w-2/3 
+      xl:h-full lg:h-full md:h-full sm:h-12 xs:h-12
+      xl:my-0 lg:my-0 md:my-0 sm:my-10 xs:my-10"
+>
+  <button
+    className="flex items-center justify-between border-none shadow rounded-md w-full h-full text-sm px-6 bg-WhiteDark dark:bg-DarkBlue "
+    data-testid="toggle-model-list"
+    onClick={[Function]}
+  >
+    Select a Model
+    <svg
+      className="h-5 w-5"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
